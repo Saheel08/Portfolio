@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern Portfolio — Saheel Patan</title>
+    <link rel="icon" type="image/jpg" href="./TabIcon.jpg">
+
+    <!-- Local CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Optional SDKs (deferred) -->
+    <script src="/_sdk/element_sdk.js" defer></script>
+    <script src="/_sdk/data_sdk.js" defer></script>
+    <script src="https://cdn.tailwindcss.com" defer></script>
+
+    <style>
+        @view-transition {
+            navigation: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container"><!-- Header -->
+        <header class="header-card">
+            <div class="profile-image" id="profile-initial">PS</div>
+            <h1 class="name" id="developer-name">Patan Saheel Akther</h1>
+            <p class="title" id="job-title">Frontend Developer</p>
+            <p class="bio" id="bio-text">I create clean, accessible web experiences with modern technologies. Passionate
+                about user interface design and performance optimization.</p>
+
+            <div class="actions">
+                <button id="hero-getin-btn" class="btn btn-primary" aria-label="Get in touch">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                    Get In Touch
+                </button>
+
+                <a id="download-resume" class="btn btn-secondary" href="patanSaheelResume.pdf" download
+                    aria-label="Download resume">
+                    <svg class="btn-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M14,2H6A2,2 0 0,0 4,4V20A2,2 0 0,0 6,22H18A2,2 0 0,0 20,20V8L14,2M18,20H6V4H13V9H18V20Z" />
+                    </svg>
+                    Download Resume
+                </a>
+            </div>
+        </header>
+
+        <!-- Work Experience Section -->
+        <div class="card full-width">
+            <h2 class="card-title">
+                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M10,2H14A2,2 0 0,1 16,4V6H20A2,2 0 0,1 22,8V19A2,2 0 0,1 20,21H4A2,2 0 0,1 2,19V8A2,2 0 0,1 4,6H8V4A2,2 0 0,1 10,2M14,6V4H10V6H14Z" />
+                </svg>
+                Work Experience
+            </h2>
+
+            <div class="experience-grid">
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-company">TopVeg</div>
+                            <div class="experience-role">Frontend Developer</div>
+                        </div>
+                        <div class="experience-period">May 2025 - Present</div>
+                    </div>
+                    
+                    <p class="experience-description">Designed and developed the company’s main landing page with modern UI layout and responsive behavior.</p>
+                    <p class="experience-description"> Building a company portal and e-commerce website.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-company">Xentrix Studios</div>
+                            <div class="experience-role">UI/UX and Frontend Developer</div>
+                        </div>
+                        <div class="experience-period">November 2024 - March 2025</div>
+                    </div>
+                    <p class="experience-description">Worked on improving internal dashboard UI and workflow tools.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-company">Wicket Hub Sports Academy</div>
+                            <div class="experience-role">Project Manager</div>
+                        </div>
+                        <div class="experience-period">May 2024 - November 2024</div>
+                    </div>
+                    <p class="experience-description">Led cross-functional teams to deliver projects on time, managing design, sourcing, and installation. Resolved supply delays, optimized ₹10L budget, and achieved 12% cost savings.</p>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-header">
+                        <div>
+                            <div class="experience-company">Xentrix Studios</div>
+                            <div class="experience-role">UI/UX and Frontend Developer</div>
+                        </div>
+                        <div class="experience-period">July 2022 - April 2024</div>
+                    </div>
+                    <div class="experience-client">Client: Nickelodeon</div>
+                    <p class="experience-description">Designed UI layouts and component styles for internal studio tools.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Grid -->
+        <div class="content-grid">
+            <!-- Skills Card -->
+            <div class="card">
+                <h2 class="card-title">
+                    <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M9.4 16.6L4.8 12l4.6-4.6L8 6l-6 6 6 6 1.4-1.4zm5.2 0L19.2 12l-4.6-4.6L16 6l6 6-6 6-1.4-1.4z" />
+                    </svg>
+                    Skills &amp; Technologies
+                </h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <div class="skill-name">React</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">JavaScript</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">HTML5</div>
+                        <div class="skill-level">Expert</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">CSS3</div>
+                        <div class="skill-level">Expert</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Tailwind</div>
+                        <div class="skill-level">Expert</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Node.js</div>
+                        <div class="skill-level">Intermediate</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Next.js</div>
+                        <div class="skill-level">Beginner</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">TypeScript</div>
+                        <div class="skill-level">Beginner</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">FramerMotion</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Git/GitHub</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Figma</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">UI/UX</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Blender</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Maya</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">Substance</div>
+                        <div class="skill-level">Advanced</div>
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!-- Projects Card -->
+            <div class="card">
+                <h2 class="card-title">
+                    <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2" />
+                    </svg>
+                    Recent Projects
+                </h2>
+                <div class="projects-grid">
+                    <div class="project-item">
+                        <div class="project-header">
+                            <div>
+                                <div class="project-title">TOPVEG</div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                        <p class="project-description">Modern agricultural business site with hero carousel and email
+                            integration.
+                        </p>
+                        <div class="project-tech"><span class="tech-tag">HTML</span> <span
+                                class="tech-tag">TailwindCSS</span> <span class="tech-tag">JavaScript</span></div>
+                        <div class="project-links"> <a href="https://topvegfarms.com/" target="_blank"
+                                class="project-link">Live</a></div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <div>
+                                <div class="project-title">Paradise Nursery</div>
+                                <div class="project-year">2025</div>
+                            </div>
+                        </div>
+                        <p class="project-description">Modern plant e-commerce site offering beautiful indoor and
+                            outdoor greens.</p>
+                        <div class="project-tech"><span class="tech-tag">React.js</span> <span
+                                class="tech-tag">TailwindCSS</span> </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Saheel08/Paradise-Nursery" target="_blank"
+                                class="project-link">Code</a>
+                            <a href="https://saheel08.github.io/Paradise-Nursery/" target="_blank"
+                                class="project-link">Live</a>
+                        </div>
+                    </div>
+
+                    <div class="project-item">
+                        <div class="project-header">
+                            <div>
+                                <div class="project-title">Nestly Living</div>
+                                <div class="project-year">2024</div>
+                            </div>
+                        </div>
+                        <p class="project-description">Stylish furniture e-commerce site showcasing modern, elegant, and
+                            functional designs.
+                        </p>
+                        <div class="project-tech"><span class="tech-tag">HTML</span> <span class="tech-tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Saheel08/Furniture-Store" target="_blank" class="project-link">Code</a>
+                            <a href="https://lucky-frangollo-4daccd.netlify.app/" target="_blank" class="project-link">Live</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        
+
+        <!-- Contact Card -->
+        <div class="card" id="contact-card">
+            <h2 class="card-title">
+                <svg class="card-icon" viewBox="0 0 24 24" fill="currentColor">
+                    <path
+                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                </svg>
+                Let's Connect
+            </h2>
+
+            <div class="contact-grid">
+                <!-- Email -->
+                <a id="email-link" class="contact-item" href="mailto:patansaheel666@gmail.com" aria-label="Email">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                    <span class="contact-text" id="email-text">patansaheel666@gmail.com</span>
+                </a>
+
+                <!-- Phone (portfolio-link replaced by phone as requested) -->
+                <a id="portfolio-link" class="contact-item" href="tel:+918074862287" aria-label="Call">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M16.36,14C16.44,13.34 16.5,12.68 16.5,12C16.5,11.32 16.44,10.66 16.36,10H19.74C19.9,10.64 20,11.31 20,12C20,12.69 19.9,13.36 19.74,14M14.59,19.56C15.19,18.45 15.65,17.25 15.97,16H18.92C17.96,17.65 16.43,18.93 14.59,19.56M14.34,14H9.66C9.56,13.34 9.5,12.68 9.5,12C9.5,11.32 9.56,10.65 9.66,10H14.34C14.43,10.65 14.5,11.32 14.5,12C14.5,12.68 14.43,13.34 14.34,14M12,19.96C11.17,18.76 10.5,17.43 10.09,16H13.91C13.5,17.43 12.83,18.76 12,19.96M8,8H5.08C6.03,6.34 7.57,5.06 9.4,4.44C8.8,5.55 8.35,6.75 8,8M5.08,16H8C8.35,17.25 8.8,18.45 9.4,19.56C7.57,18.93 6.03,17.65 5.08,16M4.26,14C4.1,13.36 4,12.69 4,12C4,11.31 4.1,10.64 4.26,10H7.64C7.56,10.66 7.5,11.32 7.5,12C7.5,12.68 7.56,13.34 7.64,14M12,4.03C12.83,5.23 13.5,6.57 13.91,8H10.09C10.5,6.57 11.17,5.23 12,4.03M18.92,8H15.97C15.65,6.75 15.19,5.55 14.59,4.44C16.43,5.07 17.96,6.34 18.92,8M12,2C6.47,2 2,6.5 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z" />
+                    </svg>
+                    <span class="contact-text" id="portfolio-text">+91 8074862287</span>
+                </a>
+
+                <!-- LinkedIn -->
+                <a id="linkedin-link" class="contact-item"
+                    href="https://www.linkedin.com/in/saheel-patan-76012b232/?skipRedirect=true%3FskipRedirect%3Dtrue"
+                    target="_blank" rel="noopener" aria-label="LinkedIn">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.79M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                    </svg>
+                    <span class="contact-text">LinkedIn</span>
+                </a>
+
+                <!-- GitHub -->
+                <a id="github-link" class="contact-item" href="https://github.com/Saheel08" target="_blank"
+                    rel="noopener" aria-label="GitHub">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M12,2A10,10 0 0,0 2,12C2,16.42 4.87,20.17 8.84,21.5C9.34,21.58 9.5,21.27 9.5,21C9.5,20.77 9.5,20.14 9.5,19.31C6.73,19.91 6.14,17.97 6.14,17.97C5.68,16.81 5.03,16.5 5.03,16.5C4.12,15.88 5.1,15.9 5.1,15.9C6.1,15.97 6.63,16.93 6.63,16.93C7.5,18.45 8.97,18 9.54,17.76C9.63,17.11 9.89,16.67 10.17,16.42C7.95,16.17 5.62,15.31 5.62,11.5C5.62,10.39 6 9.5 6.65,8.79C6.55,8.54 6.2,7.5 6.75,6.15C6.75,6.15 7.59,5.88 9.5,7.17C10.29,6.95 11.15,6.84 12,6.84C12.85,6.84 13.71,6.95 14.5,7.17C16.41,5.88 17.25,6.15 17.25,6.15C17.8,7.5 17.45,8.54 17.35,8.79C18,9.5 18.38,10.39 18.38,11.5C18.38,15.32 16.04,16.16 13.81,16.41C14.17,16.72 14.5,17.33 14.5,18.26C14.5,19.6 14.5,20.68 14.5,21C14.5,21.27 14.66,21.59 15.17,21.5C19.14,20.16 22,16.42 22,12A10,10 0 0,0 12,2Z" />
+                    </svg>
+                    <span class="contact-text">GitHub</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Local JS -->
+    <script src="script.js" defer></script>
+</body>
+
+</html>
